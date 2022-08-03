@@ -1,7 +1,7 @@
 app:
     name: Postgres Master
     code: POSTGRES
-    notify: appzdev@cloudbourne.co
+    notify: mmmusharaf@ecloudcontrol.com
     
 build:
     version: 12.2
@@ -12,7 +12,7 @@ build:
     image_name: alpha/postgres_master
     
 deploy:
-    context: alpha/DEV
+    context: musharaf6461/DEV
     type: statefulset
     replicas: 1
     port:
